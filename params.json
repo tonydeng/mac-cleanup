@@ -1,0 +1,6 @@
+{
+  "name": "Mac-cleanup",
+  "tagline": "Cleanup script for OSX",
+  "body": "# mac-cleanup\r\nCleanup script for OSX\r\n\r\n## Automatic Install:\r\n\r\n**use curl**\r\n\r\n```bash\r\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/tonydeng/mac-cleanup/master/installer.sh)\"\r\n```\r\n\r\n**use wget**\r\n\r\n```bash\r\nsh -c \"$(wget https://raw.githubusercontent.com/tonydeng/mac-cleanup/master/installer.sh -O -)\"\r\n```\r\n\r\n## Step by step Install:\r\nDownload:\r\n`curl -o cleanup https://raw.githubusercontent.com/fwartner/mac-cleanup/master/cleanup.sh`\r\n\r\nMake it executable:\r\n`chmod +x cleanup`\r\n\r\nMove to make it globally usable:\r\n`sudo mv cleanup /usr/local/bin/cleanup`\r\n\r\n\r\n## Uninstall\r\n\r\n```bash\r\ncurl -fsSL \"https://raw.githubusercontent.com/tonydeng/mac-cleanup/master/installer.sh\" | bash -s uninstall\r\n```\r\n\r\n## Update\r\n\r\n```bash\r\ncurl -fsSL \"https://raw.githubusercontent.com/tonydeng/mac-cleanup/master/installer.sh\" | bash -s update\r\n```\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
